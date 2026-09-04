@@ -1,0 +1,137 @@
+{
+  "id": "physics_unit1_unit2",
+  "title": "PHYSICS QUIZ",
+  "instructions": "Unit-1 & Unit-2 Examination. Please read each question carefully and answer all questions before submitting.",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "A toaster operating at 240 V has a resistance of 120 ohm .Its power is",
+      "type": "single_choice",
+      "options": [
+        "400 W",
+        "2 W",
+        "480 W",
+        "240 W"
+      ],
+      "correctAnswer": "480 W",
+      "marks": 1
+    },
+    {
+      "id": "q2",
+      "question": "Compute the current in the wire if a charge 120 C is flowing through a copper wire in 1 minute",
+      "type": "single_choice",
+      "options": [
+        "2 A",
+        "4 A",
+        "1A",
+        "6 A"
+      ],
+      "correctAnswer": "2 A",
+      "marks": 1
+    },
+    {
+      "id": "q3",
+      "question": "Seebeck effect is used in ",
+      "type": "single_choice",
+      "options": [
+        "Ac Generator",
+        "Automobile Generator",
+        "Thermoelectric Generator",
+        "Mobile induction"
+      ],
+      "correctAnswer": "Thermoelectric Generator",
+      "marks": 1
+    },
+    {
+      "id": "q4",
+      "question": "In joule's heating law, when R and t are constant, if the H is taken along the y axis and I^2 along the x axis,the graph is ",
+      "type": "single_choice",
+      "options": [
+        "Straight line",
+        "parabola",
+        "circle",
+        "ellipse"
+      ],
+      "correctAnswer": "Straight line",
+      "marks": 1
+    },
+    {
+      "id": "q5",
+      "question": "The internal resistance of a 2.1 v cell which gives a current of 0.2 A through a resistance of 10 ohm is ",
+      "type": "single_choice",
+      "options": [
+        "0.2 ohm",
+        "0.5 ohm",
+        "0.8 ohm",
+        "1.0 ohm"
+      ],
+      "correctAnswer": "0.5 ohm",
+      "marks": 1
+    },
+    {
+      "id": "q6",
+      "question": "A parallel plate capacitor stores a charge Q at a voltage V. suppose the area of the parallel plate capacitor and the distance between the plates are each doubled then which is the quantity that will change?",
+      "type": "single_choice",
+      "options": [
+        "Capacitance",
+        "Charge",
+        "Voltage",
+        "Energy density"
+      ],
+      "correctAnswer": "Energy density",
+      "marks": 1
+    },
+    {
+      "id": "q7",
+      "question": "Which is correct expression for torque ",
+      "type": "single_choice",
+      "options": [
+        "t=PE",
+        "t=PA",
+        "t=IE",
+        "t=PQ"
+      ],
+      "correctAnswer": "t=PE",
+      "marks": 1
+    },
+    {
+      "id": "q8",
+      "question": "Charging without actual contact is called ",
+      "type": "single_choice",
+      "options": [
+        "Electrostatic sheilding",
+        "Electrostatic induction",
+        "Dielectric strength",
+        "polarisation"
+      ],
+      "correctAnswer": "Electrostatic induction",
+      "marks": 1
+    },
+    {
+      "id": "q9",
+      "question": "Which is application of capacitor",
+      "type": "single_choice",
+      "options": [
+        "Electric heater",
+        "Radiometry",
+        "heart defibrillator",
+        "Lightning arrestor"
+      ],
+      "correctAnswer": "heart defibrillator",
+      "marks": 1
+    },
+    {
+      "id": "q10",
+      "question": "What is the Quantization  of charge",
+      "type": "text",
+      "options": [
+        "q=nr",
+        "q=ne",
+        "Option 3q=n",
+        "Option 4"
+      ],
+      "correctAnswer": "q=ne",
+      "marks": 1
+    }
+  ]
+}

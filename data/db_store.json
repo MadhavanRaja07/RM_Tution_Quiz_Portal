@@ -1,0 +1,7 @@
+{
+  "settings": {
+    "showResultsToParticipants": true,
+    "adminPasswordHash": "admin123"
+  },
+  "submissions": []
+}
