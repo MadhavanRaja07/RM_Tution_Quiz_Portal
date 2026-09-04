@@ -44,21 +44,29 @@ export default function RootLayout({
       <body className="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white min-h-screen">
         {children}
 
-        {/* Service Worker Registration */}
+        {/* Service Worker Registration (Production Only) */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
               if ('serviceWorker' in navigator) {
-                window.addEventListener('load', function() {
-                  navigator.serviceWorker.register('/sw.js').then(
-                    function(registration) {
-                      console.log('PWA ServiceWorker registered with scope: ', registration.scope);
-                    },
-                    function(err) {
-                      console.log('PWA ServiceWorker registration failed: ', err);
+                if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+                  window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/sw.js').then(
+                      function(registration) {
+                        console.log('PWA ServiceWorker registered with scope: ', registration.scope);
+                      },
+                      function(err) {
+                        console.log('PWA ServiceWorker registration failed: ', err);
+                      }
+                    );
+                  });
+                } else {
+                  navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                    for (let registration of registrations) {
+                      registration.unregister();
                     }
-                  );
-                });
+                  });
+                }
               }
             `,
           }}
